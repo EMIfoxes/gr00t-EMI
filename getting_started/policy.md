@@ -201,6 +201,15 @@ python gr00t/eval/run_gr00t_server.py \
     --strict True
 ```
 
+```bash
+python gr00t/eval/run_gr00t_server.py \
+    --embodiment-tag "GR1" \
+    --model-path "/media/lxx/Elements/project/Isaac-GR00T/checkpoints/nv-community/GR00T-N1.6-3B" \
+    --device cuda:0 \
+    --host 0.0.0.0 \
+    --port 5555
+```
+
 **Parameters:**
 - `--embodiment-tag`: The embodiment tag for your robot (e.g., `NEW_EMBODIMENT`)
 - `--model-path`: Path to your trained model checkpoint directory
